@@ -43,10 +43,10 @@ function sidebarSetup(list){
   pages.appendChild(ul)
 }
 sidebar=[
-  ['About','vescron.social/','about'],
-  ['Random Poems','vescron.social/pages/poem.html','poem'],
-  ['Scribbles','vescron.social/pages/drawings.html','drawings'],
-  ['About (but emo)','vescron.social/pages/about(but emo).html','about(but emo)'],
+  ['About','https://vescron.social/','about'],
+  ['Random Poems','https://vescron.social/pages/poem.html','poem'],
+  ['Scribbles','https://vescron.social/pages/drawings.html','drawings'],
+  ['About (but emo)','https://vescron.social/pages/about(but emo).html','about(but emo)'],
   ['Blog','/','blog']
 ]
 
