@@ -1,0 +1,115 @@
+body{
+    background-color: grey;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+.main h1{
+    margin-top: 1%;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    margin-bottom: 0;
+}
+.main h1 span{
+    margin-top:-1%;
+    float: left;
+    font-size: 150px;
+}
+.main h2{
+    color: #d3d3d3;
+    margin-top: 0;
+}
+.main p{
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    text-align: left;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
+    color: #e5e5e5;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap
+  }
+  
+  .sidenav li:hover{
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #ffffff;
+    background-color: #ffffff18;
+  }
+  
+  .sidenav .closebtn {
+    position:absolute;
+    top: 0;
+    right: 10px;
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 3%;
+  }.sidenav .closebtn:hover{
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #ffffff;
+  }
+
+  #menu{
+    display:inline-block;
+    left:1%;
+    margin-top: 1%;
+    top:0;
+    position: absolute;
+    text-align: left;
+    text-indent: 1px;
+    letter-spacing: -10px;
+    font-size: 200%;
+    cursor:pointer
+  }
+
+  #menu:hover{
+    text-shadow: 0px 0px 4px #ffffff;
+    transition: 0.4s;
+  }
+  .sidenav #other-shit{
+    position:absolute;
+    top: 0;
+    padding-top: 7%;
+    padding-left: 10px;
+    font-size: 30px;
+  }
+
+  .sidenav ul{
+    padding-left: 0%;
+    margin-top: 5%;
+  }
+  .sidenav .active{
+    background-color: #ffffff37;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav #other-shit{
+      font-size: 25px;
+    }
+    .sidenav {padding-top: 20%px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media (max-width: 600px) {
+    .sidenav {background-color: rgba(63, 164, 73, 0.912);}
+  }
